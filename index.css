@@ -1,0 +1,108 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+.cabeca{
+    border-bottom: 1px solid;
+    height: 54px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+.nomeLoja{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+.loja{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 800px;
+}
+.sacola{
+    background-color: #212529;
+    color: #F8F9FA;
+    padding: 0px 30px;
+    margin: 10px;
+    height: 40px;
+    width: 625px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.items{
+    padding: 20px 30px;
+    margin: 10px;
+    width: 700px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.item{
+    background-color: #F8F9FA;
+    padding: 0px 30px;
+    margin: 10px;
+    height: 40px;
+    width: 600px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.finalizacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.calculo{
+    background-color: #e9ecef;
+    padding: 0px 30px;
+    margin: 10px;
+    height: 88px;
+    width: 600px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.finalizar{
+    font-size: 18px;
+    color: white;
+    background-color: #20C997;
+    padding: 0px 30px;
+    margin: 10px;
+    height: 40px;
+    width: 660px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
